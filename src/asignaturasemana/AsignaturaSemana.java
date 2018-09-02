@@ -5,7 +5,9 @@
  */
 package asignaturasemana;
 
+// Importo paquete java.util.* para poder utilizar la clase Scanner
 
+import java.util.*;
 
 /**
  * Escribe un programa que pida por teclado un día de la semana y que diga qué
