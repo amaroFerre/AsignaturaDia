@@ -27,9 +27,71 @@ public class AsignaturaSemana {
     
     String dia;
     
+    String asignatura = "";
+    
     // Creo un objeto de la clase Scanner
     
     Scanner entrada = new Scanner (System.in);
+    
+    // Pido por teclado un día de la semana
+    
+    System.out.println("Introduce un día de la semana: ");
+    
+    dia = entrada.nextLine();
+    
+    // Añado una asignatura a cada caso
+    
+    switch (dia) {
+      
+      case "lunes":
+        
+        asignatura = "programacion";
+        
+        break;
+        
+      case "martes":
+        
+        asignatura = "programación";
+        
+        break;
+        
+      case "miercoles":
+        
+        asignatura = "Entornos de desarrollo";
+        
+        break;
+        
+      case "jueves ":
+        
+        asignatura = "Sistemas informáticos";
+        
+        break;
+        
+      case "viernes":
+        
+        asignatura = "Base de datos";
+        
+        break;
+        
+      case "sabado":
+        
+      case "domingo":
+        
+        asignatura = " Que descansar un poco";
+        
+        break;
+        
+      default:
+        
+        asignatura = "no existe ese dia";
+      
+    }
+    
+    System.out.println("Ha primera hora del dia "+ dia + " tienes " + asignatura);
+      
+     
+      
+      
     
     
     
