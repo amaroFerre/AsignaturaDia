@@ -27,6 +27,14 @@ public class AsignaturaSemana {
     
     String dia;
     
+    // Creo un objeto de la clase Scanner
+    
+    Scanner entrada = new Scanner (System.in);
+    
+    
+    
+    
+    
     
   }
   
